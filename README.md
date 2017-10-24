@@ -43,6 +43,7 @@
 * Extensions - none
 * Special Requirements – none
 
+![Text](https://github.com/HakimiX/Toolbox/blob/master/Diagrams/RegisterDiagram.png)
 
 ### Publish a story - Subsystem Sequence Diagram
 
@@ -63,6 +64,8 @@
 * Special Requirements – none
 
 
+![Text](https://github.com/HakimiX/Toolbox/blob/master/Diagrams/PublishDiagram.png)
+
 ### Comment a story - Subsystem Sequence Diagram
 
 * Name - Comment a Story 
@@ -82,6 +85,8 @@
 * Special Requirements – none
 
 
+![Text](https://github.com/HakimiX/Toolbox/blob/master/Diagrams/CommentDiagram.png)
+
 ### Reply a comment - Subsystem Sequence Diagram
 
 
@@ -98,10 +103,12 @@
 	+ 5 User clicks on “reply” under a comment
 	+ 6 System shows “reply” page
 	+ 7 User enters required fields and clicks on reply
-	* System validates entered details and shows “post” page
+	+ 8 System validates entered details and shows “post” page
 * Success guarantees - the user replied a comment
 * Extensions - none
 * Special Requirements – none
+
+![Text](https://github.com/HakimiX/Toolbox/blob/master/Diagrams/ReplyDiagram.png)
 
 
 ### Read a story - Subsystem Sequence Diagram
@@ -121,6 +128,9 @@
 * Special Requirements – redirect requires url
 
 
+![Text](https://github.com/HakimiX/Toolbox/blob/master/Diagrams/ReadDiagram.pn)
+
+
 ### Up-vote a story - Subsystem Sequence Diagram
 
 * Name – Up-vote a story
@@ -138,6 +148,8 @@
 * Special Requirements – none
 
 
+![Text](https://github.com/HakimiX/Toolbox/blob/master/Diagrams/UpvoteDiagram.png)
+
 ### Down-vote a story - Subsystem Sequence Diagram
 
 * Name – Down-vote a story
@@ -154,7 +166,11 @@
 * Extensions - none
 * Special Requirements – none
 
+![Text](https://github.com/HakimiX/Toolbox/blob/master/Diagrams/LoginDiagram.png)
 
 
 ## Communication Sequence Diagram
+
+![Text](https://github.com/HakimiX/Toolbox/blob/master/Diagrams/CommunicationSequence.png)
+
 
