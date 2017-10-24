@@ -6,18 +6,18 @@
 
 ### Login - Substystem Sequence Diagram
 
-* Name - Login
+* **Name** - Login
 * Scope - System under design (SuD)
 * Level - Goal: login to account
 * Primary Actor - User
 * Precondition - User is already registered
 * Main success scenario 
-* User navigates to site
-* System shows “home” page
-* User clicks on “login” in navigation bar
-* System shows “login” page
-* User enters username and password and clicks on submit
-* System authenticates user and shows “home” page
+	1 User navigates to site
+    2 System shows “home” page
+    3 User clicks on “login” in navigation bar
+    4 System shows “login” page
+    5 User enters username and password and clicks on submit
+    6 System authenticates user and shows “home” page
 * Success guarantees - the user is authenticated
 * Extensions - none
 * Special Requirements – none 
