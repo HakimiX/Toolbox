@@ -31,12 +31,12 @@
 * Primary Actor - User
 * Precondition - User is not already registered
 * Main success scenario 
-+ 1 User navigates to site
-+ 2 System shows “home” page
-+ 3 User clicks on “register” in navigation bar
-+ 4 System shows “register” page
-+ 5 User enters username and password and clicks on submit
-+ 6 System validates entered details and shows “home” page
+	+ 1 User navigates to site
+	+ 2 System shows “home” page
+	+ 3 User clicks on “register” in navigation bar
+	+ 4 System shows “register” page
+	+ 5 User enters username and password and clicks on submit
+	+ 6 System validates entered details and shows “home” page
 * Success guarantees - the user is registered 
 * Extensions - none
 * Special Requirements – none
