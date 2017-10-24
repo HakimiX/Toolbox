@@ -22,6 +22,8 @@
 * Extensions - none
 * Special Requirements – none 
 
+![Text](https://github.com/HakimiX/Toolbox/blob/master/Diagrams/LoginDiagram.png)
+
 
 ### Register - Subsystem Sequence Diagram
 
@@ -50,12 +52,12 @@
 * Primary Actor - User
 * Precondition - User is authorized
 * Main success scenario 
-+ 1 User navigates to site
-+ 2 System shows “home” page
-+ 3 User clicks on “submit” in navigation bar
-+ 4 System shows “submit” page
-+ 5 User enters required fields and clicks on submit
-+ 6 System validates entered details and shows “home” page
+	+ 1 User navigates to site
+	+ 2 System shows “home” page
+	+ 3 User clicks on “submit” in navigation bar
+	+ 4 System shows “submit” page
+	+ 5 User enters required fields and clicks on submit
+	+ 6 System validates entered details and shows “home” page
 * Success guarantees - the user published a story
 * Extensions - none
 * Special Requirements – none
@@ -69,12 +71,12 @@
 * Primary Actor - User
 * Precondition - User is authorized
 * Main success scenario 
-+ 1 User navigates to site
-+ 2 System shows “home” page
-+ 3 User clicks on “comments” under a post
-+ 4 System shows “post” page
-+ 5 User enters required fields and clicks on add comment
-* System validates entered details and shows “home” page
+	+ 1 User navigates to site
+	+ 2 System shows “home” page
+	+ 3 User clicks on “comments” under a post
+	+ 4 System shows “post” page
+	+ 5 User enters required fields and clicks on add comment
+	* System validates entered details and shows “home” page
 * Success guarantees - the user commented on a story
 * Extensions - none
 * Special Requirements – none
@@ -89,14 +91,14 @@
 * Primary Actor - User
 * Precondition - User is authorized
 * Main success scenario 
-+ 1 User navigates to site
-+ 2 System shows “home” page
-+ 3 User clicks on “comments” under a post
-+ 4 System shows “post” page
-+ 5 User clicks on “reply” under a comment
-+ 6 System shows “reply” page
-+ 7 User enters required fields and clicks on reply
-* System validates entered details and shows “post” page
+	+ 1 User navigates to site
+	+ 2 System shows “home” page
+	+ 3 User clicks on “comments” under a post
+	+ 4 System shows “post” page
+	+ 5 User clicks on “reply” under a comment
+	+ 6 System shows “reply” page
+	+ 7 User enters required fields and clicks on reply
+	* System validates entered details and shows “post” page
 * Success guarantees - the user replied a comment
 * Extensions - none
 * Special Requirements – none
@@ -110,10 +112,10 @@
 * Primary Actor - User
 * Precondition - none
 * Main success scenario 
-+ 1 User navigates to site
-+ 2 System shows “home” page
-+ 3 User clicks on a story
-+ 4 System redirects to story url
+	+ 1 User navigates to site
+	+ 2 System shows “home” page
+	+ 3 User clicks on a story
+	+ 4 System redirects to story url
 * Success guarantees - the user redirected to story url
 * Extensions - none
 * Special Requirements – redirect requires url
@@ -127,10 +129,10 @@
 * Primary Actor - User
 * Precondition - user is authorized
 * Main success scenario 
-+ 1 User navigates to site
-+ 2 System shows “home” page
-+ 3 User clicks on up-vote button 
-+ 4 System adds a points to the story
+	+ 1 User navigates to site
+	+ 2 System shows “home” page
+	+ 3 User clicks on up-vote button 
+	+ 4 System adds a points to the story
 * Success guarantees - the user up-voted a story
 * Extensions - none
 * Special Requirements – none
@@ -144,10 +146,10 @@
 * Primary Actor - User
 * Precondition – user is authorized and story has at least 500 karma points 
 * Main success scenario 
-+ 1 User navigates to site
-+ 2 System shows “home” page
-+ 3 User clicks on down-vote button 
-+ 4 System removes a point from story
+	+ 1 User navigates to site
+	+ 2 System shows “home” page
+	+ 3 User clicks on down-vote button 
+	+ 4 System removes a point from story
 * Success guarantees - the user down-voted a story
 * Extensions - none
 * Special Requirements – none
