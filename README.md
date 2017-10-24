@@ -24,6 +24,7 @@
 
 ![Text](https://github.com/HakimiX/Toolbox/blob/master/Diagrams/LoginDiagram.png)
 
+---
 
 ### Register - Subsystem Sequence Diagram
 
@@ -44,6 +45,8 @@
 * Special Requirements – none
 
 ![Text](https://github.com/HakimiX/Toolbox/blob/master/Diagrams/RegisterDiagram.png)
+
+---
 
 ### Publish a story - Subsystem Sequence Diagram
 
@@ -66,6 +69,8 @@
 
 ![Text](https://github.com/HakimiX/Toolbox/blob/master/Diagrams/PublishDiagram.png)
 
+---
+
 ### Comment a story - Subsystem Sequence Diagram
 
 * Name - Comment a Story 
@@ -86,6 +91,8 @@
 
 
 ![Text](https://github.com/HakimiX/Toolbox/blob/master/Diagrams/CommentDiagram.png)
+
+---
 
 ### Reply a comment - Subsystem Sequence Diagram
 
@@ -110,6 +117,7 @@
 
 ![Text](https://github.com/HakimiX/Toolbox/blob/master/Diagrams/ReplyDiagram.png)
 
+---
 
 ### Read a story - Subsystem Sequence Diagram
 
@@ -130,6 +138,7 @@
 
 ![Text](https://github.com/HakimiX/Toolbox/blob/master/Diagrams/ReadDiagram.pn)
 
+---
 
 ### Up-vote a story - Subsystem Sequence Diagram
 
@@ -150,6 +159,8 @@
 
 ![Text](https://github.com/HakimiX/Toolbox/blob/master/Diagrams/UpvoteDiagram.png)
 
+---
+
 ### Down-vote a story - Subsystem Sequence Diagram
 
 * Name – Down-vote a story
@@ -168,6 +179,7 @@
 
 ![Text](https://github.com/HakimiX/Toolbox/blob/master/Diagrams/DownvoteDiagra.png)
 
+---
 
 ## Communication Sequence Diagram
 
